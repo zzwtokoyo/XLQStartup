@@ -1,0 +1,30 @@
+﻿/** { margin: 0; padding: 0; }
+html, body { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: #fff; overflow: hidden; }
+body {    min-height: 480px;}
+.app-view { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #fff; visibility: hidden; }
+.app-loading { position: absolute; left: 50%; top: 40%; width: 120px; height: 62px; margin-left: -60px; margin-top: -25px; }
+.app-loading .icon { position: absolute; left: 50%; top: 0; margin-left: -17px; width: 35px; height: 35px; background: url(/Common/Img/loading.gif?ver=2.03); background-size: 100% 100%; }
+/*去除移动端input 按下去的效果*/
+input {-webkit-tap-highlight-color:transparent} 
+.button { transition: 0.2s; }
+.button:active { transform: scale(0.9); -webkit-transform: scale(0.9); -moz-transform: scale(0.9); -moz-filter: brightness(1.5); -webkit-filter: brightness(1.5); }*/
+
+.hide { display: none; }
+
+.e-controlMask { position: absolute; display: none; left: 0; top: 0; bottom: 0; right: 0; background-color: #CCCCCC; }
+
+.wechatDialogBox * { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+.wechatMask { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(0, 0, 0, 0.6); }
+.wechatDisableMask { position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(0, 0, 0, 0.05); }
+.wechatDialog { position: fixed; width: 94%; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background-color: #FAFAFC;}
+.wechatDialog * { font: 14px Microsoft Yahei UI,Microsoft Yahei; }
+.wechatDialog > .title { width: 90%; height: 30px; line-height: 30px; text-align: center; margin: 0 5%; }
+.wechatDialog > .message { width: 90%; height: auto; line-height: 30px; text-align: center; margin: 4px 5% 10px 5%; font-size: 17px; color: #727171; }
+.wechatDialog > .btnOK { width: 94%; height: 30px; line-height: 30px; text-align: center; margin: 0 3% 20px 3%; background-color: #00c29b; color: #FFF; font-size: 17px; }
+.wechatDialog > .btnCancel { width: 90%; height: 30px; line-height: 30px; text-align: center; margin: 0 5% 20px 5%; background-color: #FECB00; color: #4F3200; }
+
+.wechatDialog > .btnClose { position: absolute; width: 25px; height: 25px; right: 5px; top: 5px; background-image: url(../Img/ed-close.jpg?ver=2.03); background-size: 100% 100%; }
+
+.wechatConfirmOK { width: 40%!important; }
+.wechatConfirmNO { width: 40%!important; float: right; margin-top: -50px!important; }
